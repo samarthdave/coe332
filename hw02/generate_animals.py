@@ -5,6 +5,8 @@ import argparse
 import petname
 # python3 -m pip install petname
 
+from utils import validate_json_file
+
 """
 {
   "animals": [
@@ -51,6 +53,10 @@ def build_animal():
     return new_animal
 
 def main():
+    parser = argparse.ArgumentParser(description="Generate an animal")
+    parser.add_argument('output_file', type=str, nargs='?')
+    args = parser.parse_args()
+
     # make result list
     result_lst = list()
 
@@ -63,7 +69,9 @@ def main():
         "animals": result_lst
     }
 
-    OUT_FILE = 'animals.json'
+    OUT_FILE = args.output_file or 'animals.json'
+    validate_json_file(OUT_FILE)
+
     # write the file with tab size 4
     with open(OUT_FILE, "w") as outfile:
         json.dump(write_content, outfile, indent=4)

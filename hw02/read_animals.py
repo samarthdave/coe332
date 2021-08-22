@@ -6,10 +6,18 @@ read in animals.json and print one at random
 
 import random
 import json
+import argparse
 # python3 -m pip install petname
 
+from utils import validate_json_file
+
 def main():
-    INPUT_FNAME = './animals.json'
+    parser = argparse.ArgumentParser(description="Generate an animal")
+    parser.add_argument('output_file', type=str, nargs='?')
+    args = parser.parse_args()
+
+    INPUT_FNAME = args.output_file or 'animals.json'
+    validate_json_file(INPUT_FNAME)
 
     animals_lst = None
     with open(INPUT_FNAME) as input_file:
