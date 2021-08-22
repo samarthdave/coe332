@@ -1,0 +1,144 @@
+{
+    "animals": [
+        {
+            "head": "bull",
+            "body": "smart-mayfly",
+            "arms": 3,
+            "legs": 6,
+            "tail": 9
+        },
+        {
+            "head": "bunny",
+            "body": "game-marlin",
+            "arms": 9,
+            "legs": 6,
+            "tail": 15
+        },
+        {
+            "head": "bull",
+            "body": "cuddly-doe",
+            "arms": 3,
+            "legs": 7,
+            "tail": 10
+        },
+        {
+            "head": "snake",
+            "body": "nearby-stork",
+            "arms": 9,
+            "legs": 3,
+            "tail": 12
+        },
+        {
+            "head": "raven",
+            "body": "pet-gator",
+            "arms": 4,
+            "legs": 9,
+            "tail": 13
+        },
+        {
+            "head": "lion",
+            "body": "tender-condor",
+            "arms": 9,
+            "legs": 7,
+            "tail": 16
+        },
+        {
+            "head": "bunny",
+            "body": "apt-shark",
+            "arms": 9,
+            "legs": 6,
+            "tail": 15
+        },
+        {
+            "head": "bull",
+            "body": "native-magpie",
+            "arms": 9,
+            "legs": 7,
+            "tail": 16
+        },
+        {
+            "head": "bull",
+            "body": "fine-shrew",
+            "arms": 8,
+            "legs": 12,
+            "tail": 20
+        },
+        {
+            "head": "raven",
+            "body": "fun-hermit",
+            "arms": 2,
+            "legs": 12,
+            "tail": 14
+        },
+        {
+            "head": "bunny",
+            "body": "nearby-ant",
+            "arms": 3,
+            "legs": 10,
+            "tail": 13
+        },
+        {
+            "head": "bull",
+            "body": "caring-cougar",
+            "arms": 4,
+            "legs": 11,
+            "tail": 15
+        },
+        {
+            "head": "snake",
+            "body": "holy-marmot",
+            "arms": 3,
+            "legs": 7,
+            "tail": 10
+        },
+        {
+            "head": "bull",
+            "body": "suited-colt",
+            "arms": 3,
+            "legs": 6,
+            "tail": 9
+        },
+        {
+            "head": "raven",
+            "body": "funny-impala",
+            "arms": 3,
+            "legs": 4,
+            "tail": 7
+        },
+        {
+            "head": "bunny",
+            "body": "model-oriole",
+            "arms": 2,
+            "legs": 3,
+            "tail": 5
+        },
+        {
+            "head": "bull",
+            "body": "above-racer",
+            "arms": 9,
+            "legs": 5,
+            "tail": 14
+        },
+        {
+            "head": "bunny",
+            "body": "direct-kodiak",
+            "arms": 9,
+            "legs": 12,
+            "tail": 21
+        },
+        {
+            "head": "raven",
+            "body": "more-bird",
+            "arms": 6,
+            "legs": 6,
+            "tail": 12
+        },
+        {
+            "head": "bunny",
+            "body": "true-troll",
+            "arms": 3,
+            "legs": 8,
+            "tail": 11
+        }
+    ]
+}
