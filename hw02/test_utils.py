@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import unittest
 from utils import validate_json_file
 

@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 # https://coe-332-sp21.readthedocs.io/en/main/homework/homework01.html
 import random
 import json
